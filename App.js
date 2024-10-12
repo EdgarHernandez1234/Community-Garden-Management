@@ -1,20 +1,21 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image, SafeAreaView } from 'react-native';
 
 export default function App() {
   console.log("App executed");
   return (
-    <View style={styles.container}>
-      <Text> Hello! CGM is Currently Starting!</Text>
+    <SafeAreaView style={styles.container}>
+      <Text> Community Garden Management</Text>
       <StatusBar style="auto" />
-    </View>
+      <Image source={require('./assets/Logo.png')}/>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#00ad00',
     alignItems: 'center',
     justifyContent: 'center',
   },
