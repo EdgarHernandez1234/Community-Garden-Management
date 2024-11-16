@@ -5,4 +5,4 @@
 
 # Have: A logo, more images, Home Screen, redirect to website, account system map of gardens around csun, website as a backup in case of any errors to the app
 
-# Adding: Feedback data with the users account hidden, Previous ideas
+# Adding: Feedback data with the users account hidden, Previous ideas, more images and more polished gui
