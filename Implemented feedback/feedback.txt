@@ -1,1 +1,2 @@
-testing
+-Changing Home Screen according to the current month
+-A like system where gardeners are able to like or dislike posts
